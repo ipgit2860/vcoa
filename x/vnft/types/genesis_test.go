@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 	"github.com/stretchr/testify/require"
-	"vcoa/x/vnft/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

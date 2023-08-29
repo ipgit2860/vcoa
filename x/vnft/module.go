@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+
 	// this line is used by starport scaffolding # 1
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
@@ -16,9 +17,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"vcoa/x/vnft/client/cli"
-	"vcoa/x/vnft/keeper"
-	"vcoa/x/vnft/types"
+	"github.com/ipgit2860/vcoa/x/vnft/client/cli"
+	"github.com/ipgit2860/vcoa/x/vnft/keeper"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/std"
 	"github.com/cosmos/cosmos-sdk/x/auth/tx"
 
-	"vcoa/app/params"
+	"github.com/ipgit2860/vcoa/app/params"
 )
 
 // makeEncodingConfig creates an EncodingConfig for an amino based test configuration.

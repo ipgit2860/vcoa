@@ -3,7 +3,7 @@ package cmd
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"vcoa/app"
+	"github.com/ipgit2860/vcoa/app"
 )
 
 func initSDKConfig() {

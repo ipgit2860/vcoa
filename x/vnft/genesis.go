@@ -2,8 +2,8 @@ package vnft
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"vcoa/x/vnft/keeper"
-	"vcoa/x/vnft/types"
+	"github.com/ipgit2860/vcoa/x/vnft/keeper"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis state.

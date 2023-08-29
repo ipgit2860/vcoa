@@ -18,7 +18,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/require"
 
-	"vcoa/app"
+	"github.com/ipgit2860/vcoa/app"
 )
 
 type (

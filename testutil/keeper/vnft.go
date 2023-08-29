@@ -12,9 +12,9 @@ import (
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	typesparams "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/ipgit2860/vcoa/x/vnft/keeper"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 	"github.com/stretchr/testify/require"
-	"vcoa/x/vnft/keeper"
-	"vcoa/x/vnft/types"
 )
 
 func VnftKeeper(t testing.TB) (*keeper.Keeper, sdk.Context) {

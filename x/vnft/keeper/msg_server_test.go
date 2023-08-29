@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	keepertest "github.com/ipgit2860/vcoa/testutil/keeper"
+	"github.com/ipgit2860/vcoa/x/vnft/keeper"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 	"github.com/stretchr/testify/require"
-	keepertest "vcoa/testutil/keeper"
-	"vcoa/x/vnft/keeper"
-	"vcoa/x/vnft/types"
 )
 
 func setupMsgServer(t testing.TB) (types.MsgServer, context.Context) {

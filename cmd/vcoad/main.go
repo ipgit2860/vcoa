@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"vcoa/app"
-	"vcoa/cmd/vcoad/cmd"
+	"github.com/ipgit2860/vcoa/app"
+	"github.com/ipgit2860/vcoa/cmd/vcoad/cmd"
 )
 
 func main() {

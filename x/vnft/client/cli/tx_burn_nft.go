@@ -3,7 +3,7 @@ package cli
 import (
 	"strconv"
 
-	"vcoa/x/vnft/types"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

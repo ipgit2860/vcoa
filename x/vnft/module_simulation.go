@@ -8,9 +8,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"vcoa/testutil/sample"
-	vnftsimulation "vcoa/x/vnft/simulation"
-	"vcoa/x/vnft/types"
+	"github.com/ipgit2860/vcoa/testutil/sample"
+	vnftsimulation "github.com/ipgit2860/vcoa/x/vnft/simulation"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 )
 
 // avoid unused import issue

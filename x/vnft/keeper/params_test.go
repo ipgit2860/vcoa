@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"testing"
 
+	testkeeper "github.com/ipgit2860/vcoa/testutil/keeper"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 	"github.com/stretchr/testify/require"
-	testkeeper "vcoa/testutil/keeper"
-	"vcoa/x/vnft/types"
 )
 
 func TestGetParams(t *testing.T) {

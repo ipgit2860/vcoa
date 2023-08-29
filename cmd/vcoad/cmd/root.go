@@ -36,10 +36,11 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+
 	// this line is used by starport scaffolding # root/moduleImport
 
-	"vcoa/app"
-	appparams "vcoa/app/params"
+	"github.com/ipgit2860/vcoa/app"
+	appparams "github.com/ipgit2860/vcoa/app/params"
 )
 
 // NewRootCmd creates a new root command for a Cosmos SDK application

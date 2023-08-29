@@ -116,14 +116,14 @@ import (
 	ibctm "github.com/cosmos/ibc-go/v7/modules/light-clients/07-tendermint"
 	"github.com/spf13/cast"
 
-	vnftmodule "vcoa/x/vnft"
-	vnftmodulekeeper "vcoa/x/vnft/keeper"
-	vnftmoduletypes "vcoa/x/vnft/types"
+	vnftmodule "github.com/ipgit2860/vcoa/x/vnft"
+	vnftmodulekeeper "github.com/ipgit2860/vcoa/x/vnft/keeper"
+	vnftmoduletypes "github.com/ipgit2860/vcoa/x/vnft/types"
 
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 
-	appparams "vcoa/app/params"
-	"vcoa/docs"
+	appparams "github.com/ipgit2860/vcoa/app/params"
+	"github.com/ipgit2860/vcoa/docs"
 )
 
 const (

@@ -3,11 +3,11 @@ package vnft_test
 import (
 	"testing"
 
+	keepertest "github.com/ipgit2860/vcoa/testutil/keeper"
+	"github.com/ipgit2860/vcoa/testutil/nullify"
+	"github.com/ipgit2860/vcoa/x/vnft"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 	"github.com/stretchr/testify/require"
-	keepertest "vcoa/testutil/keeper"
-	"vcoa/testutil/nullify"
-	"vcoa/x/vnft"
-	"vcoa/x/vnft/types"
 )
 
 func TestGenesis(t *testing.T) {

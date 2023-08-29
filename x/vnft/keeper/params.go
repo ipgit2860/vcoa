@@ -2,7 +2,7 @@ package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"vcoa/x/vnft/types"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 )
 
 // GetParams get all parameters as types.Params

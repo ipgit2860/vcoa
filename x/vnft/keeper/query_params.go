@@ -4,9 +4,9 @@ import (
 	"context"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"vcoa/x/vnft/types"
 )
 
 func (k Keeper) Params(goCtx context.Context, req *types.QueryParamsRequest) (*types.QueryParamsResponse, error) {

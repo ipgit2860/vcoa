@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"vcoa/x/vnft/types"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 )
 
 type msgServer struct {

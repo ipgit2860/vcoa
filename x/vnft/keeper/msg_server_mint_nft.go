@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"vcoa/x/vnft/types"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 
 	sdkctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

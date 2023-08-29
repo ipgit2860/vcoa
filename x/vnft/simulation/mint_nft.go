@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"vcoa/x/vnft/keeper"
-	"vcoa/x/vnft/types"
+	"github.com/ipgit2860/vcoa/x/vnft/keeper"
+	"github.com/ipgit2860/vcoa/x/vnft/types"
 )
 
 func SimulateMsgMintNft(

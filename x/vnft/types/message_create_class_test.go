@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/ipgit2860/vcoa/testutil/sample"
 	"github.com/stretchr/testify/require"
-	"vcoa/testutil/sample"
 )
 
 func TestMsgCreateClass_ValidateBasic(t *testing.T) {
